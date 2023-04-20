@@ -22,6 +22,11 @@
 
     <!--link jS-->
    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+     <!--link bootstrap-->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
    
     <!--Title-->
 
@@ -35,7 +40,7 @@
                                              
             <nav class="menu">
                 <ul class="menu__lista" >
-                    <li class="menu__item"><a class="menu__link--activo" href="#contenedorq">Home</a></li>
+                    <li class="menu__item"><a class="menu__link--activo" href="#sobrenosotros">Home</a></li>
                     <li class="menu__item"><a class="menu__link" href="#actividades">Actividades</a></li>
                     <li class="menu__item"><a class="menu__link" href="#membresia">Membresía</a></li>
                     <li class="menu__item"><a class="menu__link" href="#formulario">Contacto</a></li>
@@ -100,7 +105,7 @@
                   </div>
                   <div class="col-md-6">
                     <!-- Texto "Sobre nosotros" -->
-                    <h2>Sobre nosotros</h2>
+                    <h2 id="sobrenosotros">Sobre nosotros</h2>
                     <p>Gym Fitness es una marca asociada con la actividad física con más de 10 años de experiencia en el mercado. Originada en el barrio de Almagro, Capital Federal.</p>
                     <p>Nuestro objetivo es: Mejorar la calidad de vida de nuestros socios mediante la actividad física practicada en forma segura y regular, atendiendo todas las expectativas físicas y emocionales.</p>
                     <p>Ofrecemos un servicio en constante crecimiento y evolución atendiendo a las diferentes necesidades de nuestros socios y en contacto con las tendencias mundiales de entrenamiento contando con profesionales capacitados y calificados para ello.</p>
@@ -271,14 +276,40 @@
                         
         
                         <input type="submit" value="Enviar" class="enviar">
-                        <P id="camposObligatorios">(*) Campos obligatorios</P>
+                        <P id="camposObligatorios" >(*) Campos obligatorios</P>
                     </form>               
                 </div>
             </section>
                       
         </main>
         <footer>
+            <div class="footer-content">
+                <h1><img src="images/log.png" alt="logo"></h1>
+                <nav class="menu">
+                    <ul class="menu__lista" >
+                        <li class="menu__item"><a class="menu__link--activo" href="#sobrenosotros">Home</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#actividades">Actividades</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#membresia">Membresía</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#formulario">Contacto</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#formulariologin">Login/Registro</a></li>
+                    </ul>
+                </nav>
+                
+                <p>En Gym Fitness cuidamos tu salud por eso es importante tu apto médico al momento de iniciar una actividad física (leyes nº 139 y 12329)</p>
+                <ul class="socials">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                </ul>
 
+            </div>
+            <div class="footer-bottom">
+                <p>copyright &copy;2023 Gym Fitness designed by <span>G6</span></p>
+            </div>
+            
+        
         </footer>  
     
         <script src="script.js">
