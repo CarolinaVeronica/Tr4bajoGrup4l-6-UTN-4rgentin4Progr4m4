@@ -3,10 +3,19 @@
     padding: 0;
 }
 /***Menu de navegación***/
+
+html{
+   height:100%;
+ }
+
 body{
     background:#f9f9f9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
    
 }
+
 
 .contenedor-nav{
    display: flex;
@@ -529,9 +538,11 @@ h4, .direccion, .grupo{
    color: #f9f9f9;
    font-size: large;
  }
- html{
-   height:100%;
- }
+
+
+/***Footer ***/
+
+
  footer{
    margin-top: auto;
    padding-top: 15px;
@@ -596,10 +607,3 @@ h4, .direccion, .grupo{
    font-weight: 200;
 }
 
-
-body{
-   display: flex;
-   flex-direction: column;
-   min-height: 100%;
-   
-}
